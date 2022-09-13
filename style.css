@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'newscycleRegular';
+    src: url(/font/newscycle-regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "newscycleRegular";
+    height: 100vh;
+}
+
+.dividir-columnas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.columna-izquierda {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFFAE;
+    border-right: 1px solid;
+    padding: 1em;
+    width: 12vw;
+    height: auto;
+}
+
+.columna-izquierda img {
+    width: 10vw;
+}
+
+.columna-izquierda ul {
+    list-style: none;
+    color: blue;
+}
+
+.principal,
+.pagina {
+    padding: 2em;
+    width: 80vw;
+}
+
+.principal h1 {
+    font-weight: 400;
+}
+
+.principal li {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 0.7em;
+}
+
+.principal p {
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.pagina h1,
+.pagina h2 {
+   border-bottom: 1px solid;
+   padding-bottom: 0.5em;
+}
+
+.indice-y-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure img{
+    width: 15vw;
+    height: auto;
+    margin: 1em auto 0;
+}
+
+figcaption p {
+    font-size: 0.8em;
+    width: 15vw;
+    margin: 0.2em auto;
+    line-height: 1.2em;
+}
+
+dt {
+    font-weight: 600;
+}
+
+dd {
+    padding-bottom: 1em;
+}
